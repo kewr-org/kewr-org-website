@@ -1,99 +1,104 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Kewr Organization</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> <!-- Link to Tailwind CSS CDN -->
-  <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-  <header class="bg-gray-900 text-white">
-    <nav class="container mx-auto py-4 flex flex-wrap justify-between items-center">
-      <a href="#" class="text-xl font-bold">Kewr</a>
-      <button class="text-white block sm:hidden focus:outline-none">
-        <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-          <path d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
-      <ul class="hidden sm:flex sm:space-x-4 mt-4 sm:mt-0 w-full sm:w-auto">
-        <li><a href="#" class="hover:text-gray-400">Home</a></li>
-        <li><a href="#" class="hover:text-gray-400">About</a></li>
-        <li><a href="#" class="hover:text-gray-400">Products</a></li>
-        <li><a href="#" class="hover:text-gray-400">Services</a></li>
-        <li><a href="#" class="hover:text-gray-400">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <section class="hero bg-gray-100 py-10">
-    <div class="container mx-auto text-center">
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">Welcome to Kewr Organization</h1>
-      <p class="text-lg sm:text-xl lg:text-2xl">Your gateway to the Kewr ecosystem.</p>
-      <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 mt-4 rounded">Learn More</a>
-    </div>
-  </section>
-  
-  <section class="about py-10">
-    <div class="container mx-auto">
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">About Kewr</h2>
-      <p class="text-lg sm:text-xl lg:text-2xl">Kewr is a cutting-edge technology company dedicated to revolutionizing the way we interact with the world. We provide innovative solutions and services across various industries.</p>
-    </div>
-  </section>
-  
-  <section class="products bg-gray-100 py-10">
-  <div class="container mx-auto">
-    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">Our Products</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-      <div class="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg">
-        <img src="./assets/img/vault.svg" class="w-16 h-16 text-blue-500 mb-4" alt="Product 1">
-        <h3 class="text-xl font-bold mb-2">Multisig Vault</h3>
-      </div>
-      <div class="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg">
-        <img src="./assets/img/dao.svg" class="w-16 h-16 text-blue-500 mb-4" alt="Product 1">
-        <h3 class="text-xl font-bold mb-2">DAO</h3>
-      </div>
-      <div class="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg">
-        <img src="./assets/img/dev.svg" class="w-16 h-16 text-blue-500 mb-4" alt="Product 1">
-        <h3 class="text-xl font-bold mb-2">Open Source project</h3>
-      </div>
-      <div class="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg">
-        <img src="./assets/img/staking.svg" class="w-16 h-16 text-blue-500 mb-4" alt="Product 1">
-        <h3 class="text-xl font-bold mb-2">Staking Service</h3>
-      </div>
-    </div>
-  </div>
-</section>
-
-  
-  <section class="services py-10">
-    <div class="container mx-auto">
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">Our Services</h2>
-      <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        <li>Service 1</li>
-        <li>Service 2</li>
-        <li>Service 3</li>
-      </ul>
-    </div>
-  </section>
-  
-  <section class="contact bg-gray-100 py-10">
-    <div class="container mx-auto">
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">Contact Us</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div class="text-lg">
-          <p>Get in touch with us to learn more about our solutions and discuss potential collaborations.</p>
-        </div>
-        <div>
-          <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Contact Now</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <footer class="bg-gray-900 text-white py-4">
-    <div class="container mx-auto text-center">
-      <p>&copy; 2023 Kewr Organization. All rights reserved.</p>
-    </div>
-  </footer>
-</body>
+   <head>
+      <title>Kewr Organization</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <!-- Link to Tailwind CSS CDN -->
+      <link rel="stylesheet" href="styles.css">
+      <!-- Link to your custom CSS file -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <header class="bg-gray-900 text-white">
+         <nav class="container mx-auto py-4 flex flex-wrap justify-between items-center">
+            <a href="#" class="text-xl font-bold">Kewr</a>
+            <button class="text-white block sm:hidden focus:outline-none">
+               <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                  <path d="M4 6h16M4 12h16M4 18h16"></path>
+               </svg>
+            </button>
+            <ul class="hidden sm:flex sm:space-x-4 mt-4 sm:mt-0 w-full sm:w-auto">
+               <li><a href="#" class="hover:text-gray-400">Home</a></li>
+               <li><a href="#" class="hover:text-gray-400">About</a></li>
+               <li><a href="#" class="hover:text-gray-400">Products</a></li>
+               <li><a href="#" class="hover:text-gray-400">Services</a></li>
+               <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <section class="hero bg-gray-100 py-10">
+         <div class="container mx-auto text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">Welcome to Kewr Organization</h1>
+            <p class="text-lg sm:text-xl lg:text-2xl">Your gateway to the Kewr ecosystem.</p>
+            <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 mt-4 rounded">Learn More</a>
+         </div>
+      </section>
+      <section class="about py-10">
+         <div class="container mx-auto">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">About Kewr</h2>
+            <p class="text-lg sm:text-xl lg:text-2xl">Kewr is a cutting-edge technology company dedicated to revolutionizing the way we interact with the world. We provide innovative solutions and services across various industries.</p>
+         </div>
+      </section>
+      <section class="products bg-gray-100 py-10">
+         <div class="container mx-auto">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">Our Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+               <div class="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg">
+                  <img src="./assets/img/vault.svg" class="w-16 h-16 text-blue-500 mb-4" alt="Product 1">
+                  <h3 class="text-xl font-bold mb-2">Multisig Vault</h3>
+               </div>
+               <div class="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg">
+                  <img src="./assets/img/dao.svg" class="w-16 h-16 text-blue-500 mb-4" alt="Product 1">
+                  <h3 class="text-xl font-bold mb-2">DAO</h3>
+               </div>
+               <div class="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg">
+                  <img src="./assets/img/dev.svg" class="w-16 h-16 text-blue-500 mb-4" alt="Product 1">
+                  <h3 class="text-xl font-bold mb-2">Open Source project</h3>
+               </div>
+               <div class="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg">
+                  <img src="./assets/img/staking.svg" class="w-16 h-16 text-blue-500 mb-4" alt="Product 1">
+                  <h3 class="text-xl font-bold mb-2">Staking Service</h3>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="partnership py-10">
+        <div class="container mx-auto">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">Our Ecosystem</h2>
+         <div class="bg-dark dark:bg-primary dark:bg-opacity-5 rounded-md flex flex-wrap items-center justify-center py-8 px-8 sm:px-10 md:py-[40px] md:px-[50px] xl:p-[50px] 2xl:py-[60px] 2xl:px-[70px] wow fadeInUp" data-wow-delay=".1s
+            " style="visibility: visible; animation-delay: 0.1s;">
+            <a href="#" target="_blank" rel="nofollow noreferrer" class="flex items-center justify-center lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-70 hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 transition">
+              <img src="./assets/img/partnership/capital.png"  width="200" height="400">
+            </a>
+            <a href="#" target="_blank" rel="nofollow noreferrer" class="flex items-center justify-center lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-70 hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 transition">
+            <img src="./assets/img/partnership/foundation.png"  width="200" height="400">
+            </a>
+            <a href="#" target="_blank" rel="nofollow noreferrer" class="flex items-center justify-center lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-70 hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 transition">
+            <img src="./assets/img/partnership/kewrtech.png"  width="150" height="300">
+            </a>
+            <a href="#" target="_blank" rel="nofollow noreferrer" class="flex items-center justify-center lg:max-w-[130px] xl:max-w-[150px] 2xl:max-w-[160px] mx-3 sm:mx-4 xl:mx-6 2xl:mx-8 py-[15px] grayscale hover:grayscale-0 opacity-70 hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 transition">
+            <h1>KARYA DIGITAL KEWRINDO LLP</h1>
+            </a>
+         </div>
+         </div>
+      </section>
+      <section class="contact bg-gray-100 py-10">
+         <div class="container mx-auto">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">Contact Us</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+               <div class="text-lg">
+                  <p>Get in touch with us to learn more about our solutions and discuss potential collaborations.</p>
+               </div>
+               <div>
+                  <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Contact Now</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="bg-gray-900 text-white py-4">
+         <div class="container mx-auto text-center">
+            <p>&copy; 2023 Kewr Organization. All rights reserved.</p>
+         </div>
+      </footer>
+   </body>
 </html>
