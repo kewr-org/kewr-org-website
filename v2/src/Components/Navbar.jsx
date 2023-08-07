@@ -19,19 +19,9 @@ function Navbar() {
                                 Home
                             </a>
                             </Link>
-                            <Link to='/about'>
-                            <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                                About
-                            </a>
-                            </Link>
                             <Link to='/products'>
                             <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                                Products
-                            </a>
-                            </Link>
-                            <Link to='/services'>
-                            <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                                Services
+                                Program
                             </a>
                             </Link>
                             <Link to='/contact'>
@@ -61,11 +51,8 @@ function Navbar() {
                 <a className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/#">
                     Home
                 </a>
-                <a className="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium" href="/#">
-                    Gallery
-                </a>
                 <a className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/#">
-                    Content
+                    Program
                 </a>
                 <a className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/#">
                     Contact

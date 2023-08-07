@@ -4,7 +4,8 @@ import Mission from '../Components/Mission'
 import Section3 from '../Components/Section3'
 import Section4 from '../Components/Section4'
 import Contribute from '../Components/Contribute'
-import Logo from "../img/tech.png"
+import Logo from "../img/logo.png"
+import Partnership2 from '../Components/Partnership2'
 
 function Home() {
   return (
@@ -39,7 +40,6 @@ function Home() {
 <Mission />
 <Contribute />
 <Section3 />
-<Section4 />
 </div>
   )
 }
