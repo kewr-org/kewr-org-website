@@ -1,11 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Partner from '../Components/Partner'
 import Mission from '../Components/Mission'
-import Section3 from '../Components/Section3'
-import Section4 from '../Components/Section4'
 import Contribute from '../Components/Contribute'
 import Logo from "../img/logo.png"
-import Partnership2 from '../Components/Partnership2'
 
 function Home() {
   return (
@@ -26,9 +24,9 @@ function Home() {
               Kewr is a cutting-edge technology company dedicated to revolutionizing the way we interact with the world
             </p>
             <div className="flex mt-8">
-                <a href="#" className="px-4 py-2 mr-4 text-white uppercase bg-pink-500 border-2 border-transparent rounded-lg text-md hover:bg-pink-400">
+                <Link to="/about" className="px-4 py-2 mr-4 text-white uppercase bg-pink-500 border-2 border-transparent rounded-lg text-md hover:bg-pink-400">
                     Learn More
-                </a>
+                </Link>
             </div>
         </div>
         <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
@@ -39,7 +37,6 @@ function Home() {
 <Partner />
 <Mission />
 <Contribute />
-<Section3 />
 </div>
   )
 }

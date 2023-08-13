@@ -7,9 +7,7 @@ function Footer() {
   className="bg-gray-900 text-center text-neutral-600 lg:text-left">
   <div
     className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
-    <div className="mr-12 hidden lg:block text-gray-300">
-      <span>Website last updated: August 8, 2023</span>
-    </div>
+    
     <div className="flex justify-center">
       <a href="#!" className="mr-6 text-gray-300">
         <svg
@@ -81,21 +79,21 @@ function Footer() {
   <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3 text-center">
     <div className="text-gray-500">
       <h6 className="mb-4 flex justify-center text-gray-300 font-semibold uppercase">
-        Products
+        Programs
       </h6>
       <p className="mb-4">
         <a href="#!" className="">
-          Angular
+          Sponsorship
         </a>
       </p>
       <p className="mb-4">
-        <a href="#!">React</a>
+        <a href="#!">Kewr Grant Program</a>
       </p>
       <p className="mb-4">
-        <a href="#!">Vue</a>
+        <a href="#!">Devcon</a>
       </p>
       <p>
-        <a href="#!">Laravel</a>
+        <a href="#!">Community Talk</a>
       </p>
     </div>
 

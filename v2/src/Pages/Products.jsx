@@ -1,8 +1,12 @@
 import React from 'react'
+import Grant from '../Components/Grant'
 
 function Products() {
   return (
-    <div>Products</div>
+    <div>
+      <Grant />
+      <Grant />
+    </div>
   )
 }
 

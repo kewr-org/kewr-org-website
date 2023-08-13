@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Section3() {
+function Grant() {
   return (
     <section className="bg-gray-900 px-10 md:px-32">
       <div className="mx-auto max-w-screen-xl py-12 sm:px-6 md:py-16 lg:px-8">
@@ -45,4 +45,4 @@ function Section3() {
   );
 }
 
-export default Section3;
+export default Grant;
